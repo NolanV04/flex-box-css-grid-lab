@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    align-content: center;
+    background-color:beige;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Helvetica;
+    
+  }
+  
+  #profile-card {
+    width: 280px;
+    background-color: lightgray;
+    border-radius: 10px;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px auto;
+    border: 1.75px solid green; 
+    
+  }
+  
+  #profile-picture {
+    width: 50%;
+    height: auto;
+  }
+  
+  #profile-info {
+    padding: 20px;
+  }
+  
+  #profile-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+  }
+  
+  #profile-job {
+    font-size: 18px;
+    color: #666;
+    margin: 0 0 15px 0;
+  }
+  
+  #profile-email,
+  #profile-location,
+  #profile-skills {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  
